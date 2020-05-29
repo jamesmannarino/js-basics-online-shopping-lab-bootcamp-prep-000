@@ -58,6 +58,7 @@ function placeOrder(cardNumber) {
   }
   else {
     let totalPrice = total()
+    setCart([])
     return `Your total cost is $${totalPrice}, which will be charged to the card ${cardNumber}.`
   } 
 }
