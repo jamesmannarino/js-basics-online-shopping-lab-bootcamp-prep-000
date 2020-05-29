@@ -44,6 +44,7 @@ function total() {
 }
 
 function removeFromCart(item) {
+  for (let i = )
   if (cart[i] === item) {
     cart.splice(item)
     return cart
